@@ -1,0 +1,35 @@
+Criar repositório no github SEM O README
+
+Copiar o link do https no github
+
+Abrir git bash na pasta em que você for armazenar a porra toda
+
+Git init - iniciar repositório
+
+Touch - para criar um arquivo 
+
+Git add nomedoarquivo - para adicionar um arquivo ao repositório
+
+Git commit -m “Deixe uma mensagem que faça sentido” - para dar commit no seu arquivo
+
+Git remote add origin linkdoseurepositorio 
+
+Git push -u origin master - para mandar os arquivos do repositório local para o remoto na primeira vez
+
+Git push origin master - para mandar os arquivos do repositório local usualmente
+
+Git checkout -b nomedabranch- para criar uma branch
+
+Git checkout nomedabranch- para mudar de branch
+
+Git merge origin nomedabranch - para unir o repositório de duas branches
+
+Git rm nomedoarquivo - deletar arquivo
+
+Git commit -m “nomedoarquivo excluído” - comitar o deletamento do arquivo
+
+Git branch -D nomedabranch - para apagar uma branch localmente
+
+Git push master nomedabranch --delete - para apagar uma branch do repositório remoto
+
+
